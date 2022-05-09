@@ -1,0 +1,151 @@
+body {
+    background: rgb(224, 18, 18);
+    box-sizing: border-box; /*box-sizing to match all container absolute height width*/
+}
+
+.container {
+    width: auto;  
+    height: 400px;  
+    background: rgb(142, 223, 142);
+    margin: 16px ;
+    padding: 8px;
+    border: 3px solid rgb(45, 114, 5);    
+    
+}
+
+/*----UPER BOX-----*/
+
+.top-box {
+    padding: 8px;
+    border: 3px solid black;
+    height: 50px;      
+    display: flex;
+}
+
+.upper-box1 {
+    border: 3px solid black;        
+    flex: 1;
+    margin-right: 3px;
+    padding: 8px;
+
+}
+
+.upper-box2 {
+    border: 3px solid black;        
+    flex: 2;
+    margin-right: 3px;
+    padding: 8px;
+    display: flex;
+
+}
+
+.upper-box3 {
+    border: 3px solid black;        
+    flex: 1;
+    margin-right: 3px;
+    padding: 8px;
+    
+
+}
+
+.upper-box2-box1 {
+    border: 3px solid black;        
+    flex: 1;    
+    padding: 8px;
+
+    
+
+}
+
+.upper-box2-box2 {
+    border: 3px solid black;        
+    flex: 1;    
+    padding: 8px;
+    margin-left: 3px;
+    
+
+}
+
+/*-----MID BOX----*/
+
+.mid-wrap{
+    display: flex;
+}
+
+.mid-big-box {
+    padding: 8px;
+    border: 3px solid black;
+    margin-top: 3px;
+    height: 200px; 
+    flex: 1; 
+     
+}
+
+.mid-small-wrap {
+    flex: 1;
+    height: 222px;
+    
+   
+}
+
+.mid-small-wrap2 {
+    
+    height: 222px;
+    
+   
+}
+
+.mid-small-box1 {
+    padding: 8px;
+    border: 3px solid black;
+    margin-top: 3px;
+    margin-left: 3px; 
+    height: 88px;    
+}
+
+.mid-small-box2 {
+    padding: 8px;
+    border: 3px solid black;
+    margin-top: 3px;
+    margin-left: 3px;   
+    height: 87px;
+       
+}
+
+/*----LOWER BOX----*/
+
+.lower-box {
+    padding: 8px;
+    border: 3px solid black;
+    height: 75px;      
+    display: flex;
+    margin-top: 3px;
+}
+
+.lower-big-box1 {
+    border: 3px solid black;        
+    flex: 2;    
+    padding: 8px;  
+    margin-right: 3px;
+
+}
+
+.lower-big-box2 {
+    border: 3px solid black;        
+    flex: 2;    
+    padding: 8px;
+    margin-left: 3px;
+}
+
+.lower-small-box1 {
+    border: 3px solid black;        
+    flex: 1;    
+    padding: 8px;
+    margin-right: 3px;
+}
+
+.lower-small-box2 {
+    border: 3px solid black;        
+    flex: 1;    
+    padding: 8px;
+}
